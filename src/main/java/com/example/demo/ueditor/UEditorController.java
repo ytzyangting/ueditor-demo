@@ -47,7 +47,7 @@ public class UEditorController {
      * @return
      */
     @PostMapping(value = "/uploadFile")
-    public UEditorUploadResponse imgUpload3(MultipartFile upfile) throws IOException {
+    public UEditorUploadResponse uploadFile(MultipartFile upfile) throws IOException {
         String path = uploadService.saveFile(upfile.getOriginalFilename(), upfile.getBytes());
         // 上传开始
         return UEditorUploadResponse.builder()
