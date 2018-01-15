@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.example.demo.ueditor;
 
 import lombok.Builder;
 import lombok.Data;
@@ -12,12 +12,12 @@ import lombok.Data;
 public class UEditorUploadResponse {
 
     /**
-     * 状态，SUCCESS为成功，其他为失败信息
+     * 状态，SUCCESS为成功，其他为失败信息。必须
      */
     private String state;
 
     /**
-     * 上传文件后生成的文件路径
+     * 上传文件后生成的文件路径，必须
      */
     private String url;
 

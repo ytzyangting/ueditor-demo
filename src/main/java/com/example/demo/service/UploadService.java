@@ -1,6 +1,6 @@
 package com.example.demo.service;
 
-import com.example.demo.PathGen;
+import com.example.demo.ueditor.PathGen;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 import org.springframework.util.StreamUtils;

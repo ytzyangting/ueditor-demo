@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.example.demo.ueditor;
 
 import java.lang.management.ManagementFactory;
 import java.security.SecureRandom;
@@ -6,6 +6,7 @@ import java.text.DecimalFormat;
 import java.util.concurrent.atomic.AtomicInteger;
 
 /**
+ * 文件路径生成器
  * Created by yangting on 2018/1/6.
  */
 public class PathGen {

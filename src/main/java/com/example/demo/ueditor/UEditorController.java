@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.example.demo.ueditor;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
@@ -52,7 +52,7 @@ public class UEditorController {
         // 上传开始
         return UEditorUploadResponse.builder()
                 .state("SUCCESS")
-                .url("http://localhost:8080" + path)
+                .url(path)
                 .original(upfile.getOriginalFilename())
                 .name(upfile.getName())
                 .title(upfile.getOriginalFilename())
